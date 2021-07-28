@@ -46,12 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Challenge1.cs" />
+    <Compile Include="Challenge2.cs" />
+    <Compile Include="Challenge3\Customer.cs" />
+    <Compile Include="Challenge3\CustomerOrder.cs" />
+    <Compile Include="Challenge3\LineItems.cs" />
+    <Compile Include="Challenge3\OrderPreface.cs" />
+    <Compile Include="Challenge3\ShippingAddress.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Vehicle.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
