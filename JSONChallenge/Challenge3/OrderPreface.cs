@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace JSONChallenge.Challenge3
 {
-    class OrderSummary
+    class OrderPreface
     {
-        public CustomerOrder Order { get; set; }
+        public string OrderId { get; set; }
         public Customer Purchaser { get; set; }
+        public ShippingAddress Destination { get; set; }
 
     }
 }

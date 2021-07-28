@@ -11,6 +11,5 @@ namespace JSONChallenge.Challenge3
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
-        public ShippingAddress Shipping { get; set; }
     }
 }
