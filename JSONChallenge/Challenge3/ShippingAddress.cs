@@ -12,6 +12,7 @@ namespace JSONChallenge.Challenge3
         public string AddressLine2 { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public int Zip { get; set; } 
+        public int Zip { get; set; } //string is better. leading zeroes apply as well as dashes.
+                                     //International ZIPS apply as well.
     }
 }
